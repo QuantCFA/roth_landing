@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RothGPT • RothConv — Practical Roth Conversion Analytics</title>
+  <meta name="description" content="RothGPT / RothConv — professional-grade Roth conversion analytics based on a dual‑component framework: Core Roth Conversion and Synthetic Roth Contribution."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    .container { max-width: 1000px; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white border-b">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-xl bg-gray-900 text-white flex items-center justify-center font-bold">R</div>
+        <h1 class="text-lg font-semibold">RothGPT / RothConv</h1>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-gray-600">About</a>
+        <a href="#features" class="hover:text-gray-600">Features</a>
+        <a href="#pricing" class="hover:text-gray-600">Pricing</a>
+        <a href="#contact" class="hover:text-gray-600">Contact</a>
+        <a href="#paper" class="hover:text-gray-600">Concepts</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-white to-gray-50">
+    <div class="container mx-auto px-4 py-14 text-center">
+      <h2 class="text-3xl md:text-5xl font-bold leading-tight">Practical analytics for <span class="whitespace-nowrap">Roth conversions</span></h2>
+      <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Plan and evaluate conversions using a dual‑component framework: <span class="font-medium">Core Roth Conversion</span> (tax‑rate‑spread gain) and <span class="font-medium">Synthetic Roth Contribution</span> (outside‑funded tax reclassified into Roth).</p>
+      <div class="mt-8 flex items-center justify-center gap-3">
+        <a href="#pricing" class="px-5 py-3 rounded-xl bg-gray-900 text-white font-semibold">Get Started</a>
+        <a href="#about" class="px-5 py-3 rounded-xl bg-white border font-semibold">Learn More</a>
+      </div>
+      <p class="mt-6 text-xs text-gray-500">For demonstration purposes — no investment advice.</p>
+    </div>
+  </section>
+
+  <!-- About / Features -->
+  <section id="about" class="container mx-auto px-4 py-12">
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h3 class="text-2xl font-semibold">What is RothConv?</h3>
+        <p class="mt-3 text-gray-700">RothConv helps professionals and individual investors compare <em>inside‑funded</em> versus <em>outside‑funded</em> conversions, quantify tax‑rate‑spread profit, and fund the embedded Synthetic Roth Contribution when taxes are paid with cash.</p>
+        <ul class="mt-4 space-y-2 text-gray-700 list-disc list-inside">
+          <li>Bracket‑aware projections with inflation, Social Security, and horizon controls</li>
+          <li>Decomposition of returns into Core vs. Synthetic components</li>
+          <li>Downloadable tables suitable for client reports</li>
+        </ul>
+      </div>
+      <div>
+        <div class="bg-white border rounded-2xl p-6 shadow-sm">
+          <h4 class="font-semibold">Who is it for?</h4>
+          <p class="mt-2 text-gray-700">RIAs, planners, and analytically minded investors who want transparent mechanics rather than black‑box heuristics.</p>
+          <h4 class="mt-6 font-semibold">Status</h4>
+          <p class="mt-2 text-gray-700">Early access. Core calculations are validated against internal test cases. UI and onboarding are under active development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="bg-white border-y">
+    <div class="container mx-auto px-4 py-12">
+      <h3 class="text-2xl font-semibold">Pricing</h3>
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <div class="border rounded-2xl p-6">
+          <h4 class="text-xl font-semibold">Professional</h4>
+          <p class="text-gray-600 mt-1">Licensed use for advisors, firms, and client reports.</p>
+          <p class="mt-4 text-3xl font-bold">$99<span class="text-base font-medium text-gray-600">/yr</span></p>
+          <ul class="mt-4 space-y-2 text-gray-700 list-disc list-inside">
+            <li>Full analytics & exports</li>
+            <li>Email support</li>
+          </ul>
+          <a class="inline-block mt-6 px-4 py-2 rounded-lg bg-gray-900 text-white font-medium" href="#contact">Request Access</a>
+        </div>
+        <div class="border rounded-2xl p-6">
+          <h4 class="text-xl font-semibold">Personal (Pay‑what‑you‑want)</h4>
+          <p class="text-gray-600 mt-1">For individual investors using RothConv for personal planning.</p>
+          <p class="mt-4 text-3xl font-bold">$0+</p>
+          <ul class="mt-4 space-y-2 text-gray-700 list-disc list-inside">
+            <li>Core features</li>
+            <li>Community updates</li>
+          </ul>
+          <a class="inline-block mt-6 px-4 py-2 rounded-lg bg-white border font-medium" href="#contact">Join Waitlist</a>
+        </div>
+      </div>
+      <p class="mt-6 text-sm text-gray-500">Prices shown for illustration. Final pricing may change at launch.</p>
+    </div>
+  </section>
+
+  <!-- Concepts / Paper link placeholder -->
+  <section id="paper" class="container mx-auto px-4 py-12">
+    <h3 class="text-2xl font-semibold">Concepts</h3>
+    <p class="mt-3 text-gray-700">RothConv is grounded in a dual‑component view of conversions. A public summary and practitioner notes will appear here. The submitted research manuscript is pending editorial decision.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-white">
+    <div class="container mx-auto px-4 py-12">
+      <h3 class="text-2xl font-semibold">Contact</h3>
+      <p class="mt-3 text-gray-700">Questions, partnerships, or early access:</p>
+      <ul class="mt-2 text-gray-700">
+        <li>Email: <a class="text-blue-600 underline" href="mailto:cheshiresteven401k@gmail.com">cheshiresteven401k@gmail.com</a></li>
+        <li>Business type: Sole proprietorship</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Policies -->
+  <section id="policies" class="container mx-auto px-4 py-12">
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-xl font-semibold">Refund & Cancellation Policy</h3>
+        <p class="mt-3 text-gray-700">If you are not satisfied with your annual subscription purchase, you may receive a 100% refund within 30 days. Personal investors requesting refunds may continue to use the service free of charge.</p>
+      </div>
+      <div>
+        <h3 id="privacy" class="text-xl font-semibold">Privacy Policy</h3>
+        <p class="mt-3 text-gray-700">We collect basic account information you provide (such as name and email) to operate the service, and usage analytics to improve it. Payments are processed by Stripe; we do not store your full card details. By using the service, you agree that we may share the minimum necessary data with our payment processor to complete transactions. For questions or data requests, contact <a class="text-blue-600 underline" href="mailto:cheshiresteven401k@gmail.com">cheshiresteven401k@gmail.com</a>.</p>
+        <p class="mt-2 text-gray-700 text-sm">Note: As a Stripe Business User, you are responsible for your own privacy notice and consent mechanisms.</p>
+      </div>
+      <div class="md:col-span-2">
+        <h3 id="terms" class="text-xl font-semibold">Terms of Service</h3>
+        <p class="mt-3 text-gray-700">RothConv is provided “as is” for informational purposes and does not constitute financial advice. You are responsible for any decisions made using outputs from the service. We reserve the right to modify features and pricing. By creating an account or purchasing a plan, you agree to these terms.</p>
+        <ul class="mt-2 text-gray-700 list-disc list-inside text-sm">
+          <li>Prohibited use: fraudulent activity, scraping, or reselling access without permission.</li>
+          <li>Limitation of liability: to the maximum extent permitted by law.</li>
+          <li>Governing law: the laws of your US state of residence.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t bg-white">
+    <div class="container mx-auto px-4 py-8 text-sm text-gray-600 flex flex-col md:flex-row items-center justify-between gap-3">
+      <div>© <span id="y"></span> RothGPT / RothConv. All rights reserved.</div>
+      <div class="flex gap-4">
+        <a href="#privacy" class="underline">Privacy</a>
+        <a href="#terms" class="underline">Terms</a>
+        <a href="#contact" class="underline">Contact</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+(function(){
+  function setYear(){
+    var el = document.getElementById('y');
+    if (el) {
+      var yr = new Date().getFullYear();
+      el.textContent = yr;
+      // basic self‑test to guard regressions
+      if (String(yr).length !== 4 || el.textContent !== String(yr)) {
+        console.error('Year footer test failed');
+      }
+    } else {
+      console.error('Footer year element #y not found');
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setYear);
+  } else {
+    setYear();
+  }
+})();
+</script>
+</body>
+</html>
